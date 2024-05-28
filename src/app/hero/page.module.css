@@ -5,7 +5,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 8em 30em;
+  padding: 8em 1em;
+  
   background-color: black;
   background: linear-gradient(
     180deg,
@@ -19,6 +20,7 @@
 }
 
 .hero__title {
+  width: clamp(1em, 100%, 4em);
   color: #fff;
   text-align: center;
   /* font-family: "DM Sans"; */
@@ -38,8 +40,7 @@
   font-weight: 400;
   line-height: 31px; /* 140.909% */
   letter-spacing: -0.792px;
-
-  padding: 0em 7em;
+  width: clamp(15em, 40%, 20em);
 }
 
 .hero__cta {

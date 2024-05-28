@@ -1,0 +1,24 @@
+.card__container{
+    background: #0D0D0D;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25em;
+    border-radius: 10px;
+
+}
+
+.card__image{
+    margin-bottom: 1.8em;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+.card__description{
+text-align: center;
+margin-top: 0.2em;
+}

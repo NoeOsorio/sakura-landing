@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 2.3em;
-  padding: 1.25em 5.5em;
+  padding: 1.25em clamp(1em, 10vw, 5.5em);
   background-color: black;
   height: 20em;
   

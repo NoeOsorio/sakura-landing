@@ -1,0 +1,30 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 7.5em 3.4em;
+
+}
+
+.features__title {
+    font-size: 3.375em;
+    margin-bottom: 1.1em;
+}
+
+.features__subtitle {
+    font: 1.4em;
+    width: clamp(10em, 100%, 26em);
+    font-weight: 400;
+    line-height: 31px; /* 140.909% */
+    letter-spacing: -0.792px;
+    text-align: center;
+}
+
+.features__cards {
+    margin-top: 4.125em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
