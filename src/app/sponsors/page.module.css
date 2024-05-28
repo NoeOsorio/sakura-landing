@@ -1,0 +1,29 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.3em;
+  padding: 1.25em 5.5em;
+  background-color: black;
+  height: 20em;
+  
+}
+
+.sponsors__title {
+  color: #7a7a7a;
+
+  /* Body S */
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sponsors__logos {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 3.625em;
+  overflow: scroll;
+}
