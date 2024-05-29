@@ -4,6 +4,7 @@ import Hero from "./hero/page";
 import Sponsors from "./sponsors/page";
 import Features from "./features/page";
 import Demo from "./demo/page"
+import Questions from "./questions/page";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Sponsors />
       <Features />
       <Demo />
+      <Questions />
     </div>
   );
 }

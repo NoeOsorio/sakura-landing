@@ -1,0 +1,23 @@
+.desplegable {
+  width: clamp(5em, 100%, 40em);
+}
+
+.desplegable__title-container {
+  margin: 2em 0em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desplegable__button {
+  cursor: pointer;
+}
+
+.desplegable__divider {
+  border-bottom: 1px solid white;
+}
+
+.desplegable__answer {
+  margin-bottom: 1em;
+}
