@@ -22,6 +22,7 @@
 
 .sponsors__logos {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
   gap: 3.625em;

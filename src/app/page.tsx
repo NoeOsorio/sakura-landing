@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "./hero/page";
 import Sponsors from "./sponsors/page";
 import Features from "./features/page";
+import Demo from "./demo/page"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Sponsors />
       <Features />
+      <Demo />
     </div>
   );
 }

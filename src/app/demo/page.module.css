@@ -1,0 +1,38 @@
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.8125em 3.43em;
+  background: black;
+  color: white;
+  background: linear-gradient(180deg, #000 0%, #200d42 16.21%, #4f21a1 68.68%);
+}
+
+.demo__title {
+  font-size: 3.37em;
+  font-weight: 500;
+  line-height: 60px; /* 111.111% */
+  letter-spacing: -3.24px;
+    text-align: center;
+}
+
+.demo__subtitle {
+  color: #fff;
+  text-align: center;
+
+  /* Body Large */
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px; /* 140.909% */
+  letter-spacing: -0.792px;
+  width: clamp(10em, 100%, 24em);
+  margin-top: 1.25em;
+  margin-bottom: 3.75em;
+}
+
+.demo__image {
+    width: 90vw;
+    object-fit: contain;
+    height: auto;
+}
