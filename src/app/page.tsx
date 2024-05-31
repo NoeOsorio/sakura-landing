@@ -6,6 +6,7 @@ import Features from "./features/page";
 import Demo from "./demo/page"
 import Questions from "./questions/page";
 import Contact from "./contact/page";
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Demo />
       <Questions />
       <Contact />
+      <Footer />
     </div>
   );
 }

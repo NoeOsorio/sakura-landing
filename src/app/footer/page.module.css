@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2.5em;
+    border-top: 1px solid #80808055;
+}
+
+.footer__company{
+    color: #808080;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__icons{
+    display: flex;
+    gap: 1em;
+}
