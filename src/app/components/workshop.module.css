@@ -1,0 +1,47 @@
+.workshop {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .workshop {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .workshop__column {
+    align-items: center !important;
+
+  }
+  .workshop__column > button{
+    margin: 0 !important;
+  }
+}
+
+.workshop__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+
+.workshop__column > h3 {
+  margin-bottom: 1em;
+}
+
+.workshop__column > button {
+  margin-top: 1em;
+  display: flex;
+  padding: 1em 1.25em;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em;
+  border-radius: 0.6em;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+}

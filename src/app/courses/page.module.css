@@ -1,0 +1,25 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.courses__subtitle {
+  font: 1.4em;
+  width: clamp(10em, 100%, 26em);
+  font-weight: 400;
+  line-height: 31px; /* 140.909% */
+  letter-spacing: -0.792px;
+  text-align: center;
+}
+
+.courses__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin: 3em 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}

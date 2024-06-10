@@ -9,6 +9,12 @@
     border-radius: 10px;
 
 }
+.card__title{
+    font-size: 1.5em;
+    margin-bottom: 1.1em;
+    text-align: center;
+    color: white;
+}
 
 .card__image{
     margin-bottom: 1.8em;

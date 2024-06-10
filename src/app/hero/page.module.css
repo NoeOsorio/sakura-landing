@@ -20,15 +20,13 @@
 }
 
 .hero__title {
-  width: clamp(1em, 100%, 4em);
   color: #fff;
   text-align: center;
-  /* font-family: "DM Sans"; */
-  font-size: 10.2em;
+  font-size: clamp(5em, 10vw, 10em);
   font-style: normal;
   font-weight: 700;
-  line-height: 125px; /* 75.758% */
-  letter-spacing: -12.375px;
+  line-height: 1em; /* 75.758% */
+  letter-spacing: -5px;
 }
 
 .hero__subtitle {

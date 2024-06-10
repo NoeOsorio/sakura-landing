@@ -3,13 +3,14 @@ import styles from "./page.module.css";
 export default function Hero() {
   return (
     <div className={styles.hero}>
-      <h1 className={styles["hero__title"]}>One Task at a Time</h1>
+      <h1 className={styles["hero__title"]}>
+        Sakura Academy
+      </h1>
       <span className={styles["hero__subtitle"]}>
-        Celebrate the joy of accomplishment with an app designed to track your
-        progress, motivate your efforts, and celebrate your successes.
+      Transforma tu Futuro en Tecnología con la Mejor Escuela de Programación en Puebla - ¡Comienza Hoy!
       </span>
-      <button className={styles["hero__cta"]}>Get Started</button>
-        <div className={styles["hero__light"]}></div>
+      <button className={styles["hero__cta"]}>Inscríbete Ahora</button>
+      <div className={styles["hero__light"]}></div>
     </div>
   );
 }

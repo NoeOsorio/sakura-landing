@@ -10,16 +10,24 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles["footer__company"]}>
-        @ 2024 Your Company, Inc. All rights reserved
+        @ 2024 Sakura Kode Academy. Todos los derechos reservados.
       </p>
       <div className={styles["footer__icons"]}>
-         <IconButton link={"https://twitter.com"} icon={<TwitterOutlined />} />
-         <IconButton link={"https://instagram.com"} icon={<InstagramOutlined />} />
-         <IconButton link={"https://facebook.com"} icon={<FacebookOutlined />} />
-          <IconButton link={"https://linkedin.com"} icon={<LinkedinOutlined />} />
-          <IconButton link={"https://youtube.com"} icon={<YoutubeOutlined />} />
+        <IconButton
+          link={"https://www.instagram.com/sakurakode.academy"}
+          icon={<InstagramOutlined />}
+        />
+        <IconButton
+          link={
+            "https://www.facebook.com/people/Sakura-Academy/61559428662044/"
+          }
+          icon={<FacebookOutlined />}
+        />
+        <IconButton
+          link={"https://linkedin.com/company/sakurakodeacademy"}
+          icon={<LinkedinOutlined />}
+        />
       </div>
-      
     </footer>
   );
 }

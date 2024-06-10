@@ -1,0 +1,35 @@
+.card,
+.card-body {
+  width: 15em;
+  height: 18em;
+  cursor: pointer;
+}
+
+.card {
+  background-image: linear-gradient(163deg, #ff14af 0%, #32005f 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.card-body {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  transition: all 0.2s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+  gap: 1em;
+}
+
+.card-body:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px 1px #32005f30;
+}

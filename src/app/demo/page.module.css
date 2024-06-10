@@ -36,3 +36,9 @@
     object-fit: contain;
     height: auto;
 }
+
+.workshops{
+  display: flex;
+  gap: 3em;
+  flex-direction: column;
+}
