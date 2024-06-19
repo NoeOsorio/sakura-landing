@@ -1,8 +1,4 @@
-export default function WorkshopsPage({
-  params,
-}: {
-  params: { workshop: string };
-}) {
+export default function WorkshopsPage() {
   return (
     <div>
       <div data-tf-live="01J0MKHAMZ2J3VZA4733Q8QY3Y"></div>
