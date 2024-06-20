@@ -15,7 +15,6 @@ export default function WorkshopsPage({
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    console.log("Client");
     const script = document.createElement("script");
     script.src = "//embed.typeform.com/next/embed.js";
     script.async = true;
