@@ -2,22 +2,22 @@ import styles from "./workshop.module.css";
 import Image from "next/image";
 import ScreenShot from "../assets/images/demo.png";
 
-export default function Workshop() {
+export default function Workshop({name, startDate, duration, schedule, imageSrc}:{name :string, startDate :string, duration :string, schedule :string, imageSrc :string}) {
   return (
     <div className={styles["workshop"]}>
       <div className={styles["workshop__column"]}>
-        <Image src={ScreenShot} alt="Demo" width={200} />
+        <Image src={imageSrc} alt="Demo" width={200} />
       </div>
       <div className={styles["workshop__column"]}>
-        <h3>Taller de Git y Github</h3>
+        <h3>{name}</h3>
         <span>
-          <strong>Fecha de inicio:</strong> 23 de Junio 2023
+          <strong>Fecha de inicio:</strong> {startDate}
         </span>
         <span>
-          <strong>Duración:</strong> 2 días
+          <strong>Duración:</strong> {duration}
         </span>
         <span>
-          <strong>Horario:</strong> 10:00 a 13:00
+          <strong>Horario:</strong> {schedule}
         </span>
         
       </div>

@@ -5,7 +5,7 @@ import Workshop from "../components/workshop";
 
 export default function Demo() {
   return (
-    <div className={styles.demo}>
+    <section id="workshops" className={styles.demo}>
       <h2 className={styles["demo__title"]}>
         ¡No Te Pierdas Nuestras Próximas Clases!
       </h2>
@@ -13,11 +13,24 @@ export default function Demo() {
         Reserva Tu Lugar en Nuestros Cursos y Talleres Más Populares
       </p>
       <div className={styles.workshops}>
-        <Workshop />
-        <Workshop />
-        <Workshop />
-        <Workshop />
+        <Workshop
+        name="Taller de Git y GitHub"
+        startDate="5 de julio de 2024"
+        duration="3 dias"
+        schedule="10:00 a 13:00 hrs"
+        imageSrc={ScreenShot}
+         />
+
+<Workshop
+        name="Taller basico de programacion"
+        startDate="12 de julio de 2024"
+        duration="3 dias"
+        schedule="10:00 a 13:00 hrs"
+        imageSrc={ScreenShot}
+         />
+       
+      
       </div>
-    </div>
+    </section>
   );
 }

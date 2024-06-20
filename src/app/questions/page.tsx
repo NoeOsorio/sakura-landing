@@ -52,7 +52,7 @@ const qAndA = [
 ];
 export default function Questions() {
   return (
-    <div className={styles.questions}>
+    <section id="questions" className={styles.questions}>
       <h2 className={styles["questions__title"]}>Preguntas Frecuentes</h2>
       {qAndA.map((qa) => (
         <Desplegable
@@ -61,6 +61,6 @@ export default function Questions() {
           answer={qa.answer}
         />
       ))}
-    </div>
+    </section>
   );
 }

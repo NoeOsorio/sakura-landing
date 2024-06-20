@@ -1,0 +1,21 @@
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-weight: bold;
+}
+
+
+
+.nav__item{
+    margin-left: 3em;
+}
+
+.nav__item:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
