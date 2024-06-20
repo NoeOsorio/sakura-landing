@@ -33,7 +33,8 @@
   margin-bottom: 1em;
 }
 
-.workshop__column > button {
+.workshop__link {
+  text-decoration: none;
   margin-top: 1em;
   display: flex;
   padding: 1em 1.25em;
@@ -44,4 +45,5 @@
   background: #fff;
   cursor: pointer;
   border: none;
+  color: var(--action-primary);
 }
