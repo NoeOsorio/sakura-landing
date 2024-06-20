@@ -29,6 +29,5 @@ export default function WorkshopsPage({
   if (!workshop || !workshops[workshop.toString()]) {
     return redirect("/404");
   }
-  console.log(workshops[workshop.toString()]);
   return <div>{isClient && workshops[workshop.toString()]}</div>;
 }
