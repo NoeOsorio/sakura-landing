@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function Hero() {
   return (
-    <div className={styles.hero}>
+    <section id="hero" className={styles.hero}>
       <h1 className={styles["hero__title"]}>
         Sakura Academy
       </h1>
@@ -11,6 +11,6 @@ export default function Hero() {
       </span>
       <button className={styles["hero__cta"]}>Inscríbete Ahora</button>
       <div className={styles["hero__light"]}></div>
-    </div>
+    </section>
   );
 }

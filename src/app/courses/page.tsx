@@ -21,7 +21,7 @@ const courses = [
 
 export default function Courses() {
   return (
-    <div className={styles.courses}>
+    <section id="courses" className={styles.courses}>
       <h2 className={styles["courses__title"]}>Cursos</h2>
       <p className="subtitle">Conoce los cursos que tenemos para ti.</p>
       <div className={styles["courses__cards"]}>
@@ -34,6 +34,6 @@ export default function Courses() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

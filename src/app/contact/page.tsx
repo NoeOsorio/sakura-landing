@@ -5,7 +5,7 @@ import engrane from "../assets/images/engrane.png";
 
 export default function Contact() {
   return (
-    <div className={styles.contact}>
+    <section id="contact" className={styles.contact}>
       <h2 className={styles["contact__title"]}>Mantente en Contacto</h2>
       <p className={styles["contact__subtitle"]}>
         Únete a Sakura Academy y da el primer paso hacia tu carrera en
@@ -35,6 +35,6 @@ export default function Contact() {
         width={263}
         height={263}
       />
-    </div>
+    </section>
   );
 }
