@@ -5,17 +5,17 @@ const courses = [
   {
     level: "Básico",
     title: "Introducción a la programación",
-    description: "Inicia 24 de junio",
+    description: "Proximamente",
   },
   {
     level: "Básico",
     title: "Introducción al desarrollo web",
-    description: "Inicia 30 de junio",
+    description: "Proximamente",
   },
   {
     level: "Intermedio",
     title: "Frontend con React",
-    description: "Inicia 30 de julio",
+    description: "Proximamente",
   },
 ];
 
