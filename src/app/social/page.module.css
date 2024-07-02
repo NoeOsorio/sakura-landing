@@ -1,0 +1,48 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.social h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.social ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social ul li {
+  margin-bottom: 1rem;
+  border: var(--background-color-lighter) 1px solid;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5em 1.5em;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.social ul li:hover {
+  background-color: var(--background-color-lighter);
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: all 0.3s ease-in-out;
+}
+
+.social__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.7em;
+}
